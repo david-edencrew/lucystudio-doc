@@ -10,3 +10,4 @@ Document and manual for Lucy Studio
 
 
 kss test hi!
+push test!
