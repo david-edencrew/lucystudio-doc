@@ -2,18 +2,5 @@
 Document and manual for Lucy Studio
 Document and manual for Lucy Studio
 Document and manual for Lucy Studio
-Document and manual for Lucy Studio
-Document and manual for Lucy Studio
-Document and manual for Lucy Studio
-Document and manual for Lucy Studio
-Document and manual for Lucy Studio
 
-
-kss test hi!
-push test!
-
-push test@@@@@@
-aaass
-bbbbb
-ccccccc/
-ccccddd
+12346565456
