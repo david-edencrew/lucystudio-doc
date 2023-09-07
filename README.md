@@ -8,4 +8,12 @@ Document and manual for Lucy Studio
 하하하
 호호호
 
-ggggggg
+히히
+dndndndnd
+444
+55577777
+
+8888
+
+
+9999
