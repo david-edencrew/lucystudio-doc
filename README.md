@@ -5,10 +5,5 @@ Document and manual for Lucy Studio
 
 12346565456
 
-aaaaa
-gggggggg
-kkkkk
-
-ddd
-
-eeee
+하하하
+호호호
