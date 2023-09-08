@@ -3,7 +3,7 @@
 1. 소개(Introduction)
 2. Lcuy Studio
   - plate tabbar(메뉴 개략)
-  		- <<<<< intro.md(place tabbar 버튼 기능 설명) >>>>>
+  		- <<<<< intro.md(place tabbar capture 후에 버튼 기능 설명) >>>>>
   		- Widgets
   		- Pages
   		- Widget tree
@@ -18,7 +18,7 @@
   		- supports
   		- 접기/ 펼치기
   - action_bar(메뉴 개략)
-  		- <<<<< intro.md(action bar 버튼 기능 간단 설명) >>>>>
+  		- <<<<< intro.md(action bar capture 후에 버튼 기능 간단 설명) >>>>>
   		- design mode
   		- animation mode(나머지 디테일하게)
   		- git
@@ -29,7 +29,7 @@
   		- support
 
   - canvas area
-  		- <<<<< intro.md(canvas 버튼 기능 간단 설명) >>>>>
+  		- <<<<< intro.md(canvas capture 후에 버튼 기능 간단 설명) >>>>>
   		- page Tabs((+) 버튼 (세 페이지 만들기))
   		- 확대/ 축소
   		- 디바이스 사이즈 변경
@@ -38,7 +38,7 @@
   		- Show Object
 
   - panel tabbar(버튼메뉴 개략)
-        - <<<<< intro.md(panel tabbar 버튼 기능 간단 설명) >>>>>
+        - <<<<< intro.md(panel capture 후에 tabbar 버튼 기능 간단 설명) >>>>>
 	  	- properties panel
 	  	- styles panel
 	  	- provider instance
@@ -69,21 +69,21 @@
 1. intro(X)
 2. lucy_studio
 		plate_tab_bar
-			intro.md(place tabbar 버튼 기능 설명)
+			intro.md(place tabbar capture 후에 버튼 기능 설명)
 			widgets.md
 			pages.md
 			widget_tree.md
 			components.md
 			...
 		action_bar
-			intro.md(action bar 버튼 기능 간단 설명)
+			intro.md(action bar capture 후에 버튼 기능 간단 설명)
 			design_mode.md
 			animation_mode.md
 			git.md
 			bug_viewer.md
 			...
 		canvas
-			intro.md(canvas 버튼 기능 간단 설명)
+			intro.md(canvas capture 후에 버튼 기능 간단 설명)
 			menu_file.md
 			menu_file_add.md
 			zoom.md
@@ -102,7 +102,7 @@
 
 		
 		left_plate(각 프로퍼티 설명)
-			intro.md(Widget 버튼 기능 간단 설명)
+			intro.md(Widget capture 후에 버튼 기능 간단 설명)
 			layout
 				row.md
 				column.md
