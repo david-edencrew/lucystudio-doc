@@ -115,9 +115,6 @@
 				text.md
 				textfield.md
 				...
-		styles 
-			styles 패널의 소개 페이지.md`
-			각각의 파일.md
 
 3. project
 	intro.md(로그인 과정 포함 프로젝트 익스포트 과정 설명)
