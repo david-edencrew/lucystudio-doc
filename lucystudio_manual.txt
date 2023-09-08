@@ -1,0 +1,130 @@
+*** Lucy Studio 몌뉴얼 목차 ***
+--- 좌측 menu ----
+1. 소개(Introduction)
+2. Lcuy Studio
+  - plate tabbar(메뉴 개략)
+  		- <<<<< intro.md(place tabbar 버튼 기능 설명) >>>>>
+  		- Widgets
+  		- Pages
+  		- Widget tree
+  		- Compoments
+  		- Images
+  		- Asset Expolrer
+  		- My Widgets
+  		- Data Provider
+  		- App Variable
+  		- Color Theme
+  		- App Settings
+  		- supports
+  		- 접기/ 펼치기
+  - action_bar(메뉴 개략)
+  		- <<<<< intro.md(action bar 버튼 기능 간단 설명) >>>>>
+  		- design mode
+  		- animation mode(나머지 디테일하게)
+  		- git
+  		- Bug viewer
+  		- Run
+  		- Device Sync
+  		- Preferences
+  		- support
+
+  - canvas area
+  		- <<<<< intro.md(canvas 버튼 기능 간단 설명) >>>>>
+  		- page Tabs((+) 버튼 (세 페이지 만들기))
+  		- 확대/ 축소
+  		- 디바이스 사이즈 변경
+  		- Widget tool
+  		- Hide/Show Script 
+  		- Show Object
+
+  - panel tabbar(버튼메뉴 개략)
+        - <<<<< intro.md(panel tabbar 버튼 기능 간단 설명) >>>>>
+	  	- properties panel
+	  	- styles panel
+	  	- provider instance
+	  	- Data Source
+	  	- Data Binding
+
+  - left plate
+  		- <<<<< Widget 버튼 기능 간단 설명 >>>>>  	
+
+
+====================================
+3. 새 프로젝트 만들기(로그인 과정 포함 프로젝트 익스포트 과정 설명)
+====================================
+4. 간단한 앱 구축(X)
+====================================
+
+
+
+
+1,plate tab bar
+2.action bar
+3.canvas(canvas page tab section포험)
+4.panel
+5.panel tab bar
+6.status bar(추후 추가 예정)
+
+++++++++++ 폴더 구조(폴더명, 화일명은 모두 소문자로 지정한다.) ++++++++++
+1. intro(X)
+2. lucy_studio
+		plate_tab_bar
+			intro.md(place tabbar 버튼 기능 설명)
+			widgets.md
+			pages.md
+			widget_tree.md
+			components.md
+			...
+		action_bar
+			intro.md(action bar 버튼 기능 간단 설명)
+			design_mode.md
+			animation_mode.md
+			git.md
+			bug_viewer.md
+			...
+		canvas
+			intro.md(canvas 버튼 기능 간단 설명)
+			menu_file.md
+			menu_file_add.md
+			zoom.md
+			device_size.md
+			widget_tool.md
+			script.md
+			show_object.md
+			...
+		panel_tabbar
+			intro.md(panel tabbar 버튼 기능 간단 설명)
+			properites.md
+			styles.md
+			provider_instance.md
+			data_source.md
+			data_binding.md
+
+		
+		left_plate(각 프로퍼티 설명)
+			intro.md(Widget 버튼 기능 간단 설명)
+			layout
+				row.md
+				column.md
+				...
+			divider
+				spacer.md
+				divider.md
+				..
+			contents
+				text.md
+				textfield.md
+				...
+		styles 
+			styles 패널의 소개 페이지.md`
+			각각의 파일.md
+
+3. project
+	intro.md(로그인 과정 포함 프로젝트 익스포트 과정 설명)
+4. simple_app
+	intro.md
+intro.md	 
+
+		
+
+
