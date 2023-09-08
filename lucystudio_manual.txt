@@ -123,7 +123,7 @@
 	intro.md(로그인 과정 포함 프로젝트 익스포트 과정 설명)
 4. simple_app
 	intro.md
-intro.md	 
+intro.md(Lucy Studio에 대해서 간단소개)	 
 
 		
 
