@@ -60,6 +60,7 @@
 ++++++++++ 폴더 구조(폴더명, 화일명은 모두 소문자로 지정한다.) ++++++++++
 	1. intro(X)
 	2. lucy_studio(폴더)
+			lucy_studio.md(전체 메뉴 카테고리별로 나누어서 간단 설명)
 			1) plate_tab_bar(폴더)
 				 plate_tab_bar.md(place tabbar capture 후에 버튼 기능 설명)
 				
