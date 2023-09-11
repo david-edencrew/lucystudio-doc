@@ -11,4 +11,4 @@
 
 1. 컨텐츠 영역의 텍스트 위젯을 드래그해서 캔버스에 올리거나 위젯 트리에서 직접 추가합니다.
 
-![텍스트](assets/Widgets_Contents.png "컨텐츠영역") 
+![텍스트](/assets/Widgets_Contents.png "컨텐츠영역") 
