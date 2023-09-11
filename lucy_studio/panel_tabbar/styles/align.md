@@ -1,0 +1,1 @@
+# properites 항목 기능설명
