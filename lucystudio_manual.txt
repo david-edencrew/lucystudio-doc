@@ -56,15 +56,6 @@
 ====================================
 
 
-
-
-1,plate tab bar
-2.action bar
-3.canvas(canvas page tab section포험)
-4.panel
-5.panel tab bar
-6.status bar(추후 추가 예정)
-
 ++++++++++ 폴더 구조(폴더명, 화일명은 모두 소문자로 지정한다.) ++++++++++
 1. intro(X)
 2. lucy_studio
