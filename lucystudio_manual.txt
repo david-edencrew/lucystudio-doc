@@ -2,9 +2,9 @@
 --- 좌측 menu ----
 1. 소개(Introduction)
 2. Lcuy Studio
-  - plate tabbar(메뉴 개략)
+   1) plate tabbar(메뉴 개략)
   		- <<<<< intro.md(place tabbar capture 후에 버튼 기능 설명) >>>>>
-  		- Widgets
+  		- widgets
   		- Pages
   		- Widget tree
   		- Compoments
@@ -17,7 +17,7 @@
   		- App Settings
   		- supports
   		- 접기/ 펼치기
-  - action_bar(메뉴 개략)
+  2) action_bar(메뉴 개략)
   		- <<<<< intro.md(action bar capture 후에 버튼 기능 간단 설명) >>>>>
   		- design mode
   		- animation mode(나머지 디테일하게)
@@ -28,7 +28,7 @@
   		- Preferences
   		- support
 
-  - canvas area
+  3) canvas area
   		- <<<<< intro.md(canvas capture 후에 버튼 기능 간단 설명) >>>>>
   		- page Tabs((+) 버튼 (세 페이지 만들기))
   		- 확대/ 축소
@@ -37,7 +37,7 @@
   		- Hide/Show Script 
   		- Show Object
 
-  - panel tabbar(버튼메뉴 개략)
+  4) panel tabbar(버튼메뉴 개략)
         - <<<<< intro.md(panel capture 후에 tabbar 버튼 기능 간단 설명) >>>>>
 	  	- properties panel
 	  	- styles panel
@@ -57,71 +57,76 @@
 
 
 
-
-1,plate tab bar
-2.action bar
-3.canvas(canvas page tab section포험)
-4.panel
-5.panel tab bar
-6.status bar(추후 추가 예정)
-
 ++++++++++ 폴더 구조(폴더명, 화일명은 모두 소문자로 지정한다.) ++++++++++
-1. intro(X)
-2. lucy_studio
-		plate_tab_bar
-			intro.md(place tabbar capture 후에 버튼 기능 설명)
-			widgets.md
-			pages.md
-			widget_tree.md
-			components.md
-			...
-		action_bar
-			intro.md(action bar capture 후에 버튼 기능 간단 설명)
-			design_mode.md
-			animation_mode.md
-			git.md
-			bug_viewer.md
-			...
-		canvas
-			intro.md(canvas capture 후에 버튼 기능 간단 설명)
-			menu_file.md
-			menu_file_add.md
-			zoom.md
-			device_size.md
-			widget_tool.md
-			script.md
-			show_object.md
-			...
-		panel_tabbar
-			intro.md(panel tabbar 버튼 기능 간단 설명)
-			properites.md
-			styles.md
-			provider_instance.md
-			data_source.md
-			data_binding.md
+	1. intro(X)
+	2. lucy_studio(폴더)
+			1) plate_tab_bar(폴더)
+				 plate_tab_bar.md(place tabbar capture 후에 버튼 기능 설명)
+				
+				 main_menu.md(context menu 간단설명)
+				 widgets(폴더)
+					layout(폴더)
+						row.md(기능 설명 및 프로퍼티 설명)
+						column.md(기능 설명 및 프로퍼티 설명)
+						...
+					divider(폴더)
+						spacer.md(기능 설명 및 프로퍼티 설명)
+						divider.md(기능 설명 및 프로퍼티 설명)
+						..
+					contents(폴더)
+						text.md(기능 설명)
+						textfield.md(기능 설명)
+						...
 
-		
-		left_plate(각 프로퍼티 설명)
-			intro.md(Widget capture 후에 버튼 기능 간단 설명)
-			layout
-				row.md
-				column.md
+				pages.md
+				widget_tree.md
+				components.md
+				images.md
+				asset_explorer.md
+				my_widgets.md
+				data_provider.md
+				variable.md
+				color_theme.md
+				app_settings.md
+				support.md
+				show_hide.md(프로적트 접기/ 펼치기)
+
+			2) action_bar(폴더)
+				action_bar.md(action bar capture 후에 버튼 기능 간단 설명)
+				
+				design_mode.md(캠쳐 후에 기능설명)
+				animation_mode.md(캠쳐 후에 기능설명)
+				git.md(캠쳐 후에 기능설명)
+				bug_viewer.md(캠쳐 후에 기능설명)
+				run.md
+				device_sync.md
+				preference.md(plate tabbar 중복여부 체크 필요)
+				support.md(plate tabbar  중복여부 체크 필요)
+
+
+			3) canvas(폴더)
+				canvas.md(canvas capture 후에 버튼 기능 간단 설명)
+
+				menu_file.md
+				menu_file_add.md
+				zoom.md
+				device_size.md
+				widget_tool.md
+				script.md
+				show_object.md
 				...
-			divider
-				spacer.md
-				divider.md
-				..
-			contents
-				text.md
-				textfield.md
-				...
+			4) panel_tabbar(폴더)
+				panel_tabbar.md(panel tabbar 버튼 기능 간단 설명)
+				peperities.md()	
+				styles.md
+				provider_instance.md
+				data_source.md
+				data_binding.md
 
-3. project
-	intro.md(로그인 과정 포함 프로젝트 익스포트 과정 설명)
-4. simple_app
-	intro.md
-intro.md(Lucy Studio에 대해서 간단소개)	 
+	3. project(폴더)
+			project.md(로그인 과정 포함 프로젝트 익스포트 과정 설명)
 
-		
+	4. simple_app(폴더)
+			simple_app.md
 
-
+intro.md(Lucy Studio에 대해서 간단소개) 
