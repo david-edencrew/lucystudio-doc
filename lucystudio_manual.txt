@@ -55,6 +55,11 @@
 4. 간단한 앱 구축(X)
 ====================================
 
+****************** naming rule ****************************
+1. 대문자를 사용하지 않습니다.(언더바(_)사용)
+2. lucy_studio(0)
+   LcuyStudio(X)
+*********************************************************** 
 
 
 ++++++++++ 폴더 구조(폴더명, 화일명은 모두 소문자로 지정한다.) ++++++++++
@@ -116,18 +121,25 @@
 				script.md
 				show_object.md
 				...
+
 			4) panel_tabbar(폴더)
 				panel_tabbar.md(panel tabbar 버튼 기능 간단 설명)
-				peperities.md()	
-				styles.md
-				provider_instance.md
-				data_source.md
-				data_binding.md
+				peperities.md(해당화일은 사용하지 않음)(lucy_studio/ plate_tab_bar/ widgets에 프로퍼티항목 기재예정)	
+				styles(폴더)
+					styles.md(capture 후에 버튼 기능 간단 설명)
+					align.md(프로퍼티 설정 및 기능설명)
+					padding.md(프로퍼티 설정 및 기능설명)
+					...
+
+
+				provider_instance.md(설정화면 밎 기능설명)
+				data_source.md(설정화면 및 기능설명)
+				data_binding.md(설정화면 및 기능설명)
 
 	3. project(폴더)
 			project.md(로그인 과정 포함 프로젝트 익스포트 과정 설명)
 
 	4. simple_app(폴더)
-			simple_app.md
+			simple_app.md(간단한 샘플화면 제공예정)
 
 intro.md(Lucy Studio에 대해서 간단소개) 
