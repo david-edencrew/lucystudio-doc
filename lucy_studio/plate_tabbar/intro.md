@@ -1,1 +1,1 @@
-# left_plate widgets 캡쳐 후에 버튼 기능 간단 설명
+# Introduction
