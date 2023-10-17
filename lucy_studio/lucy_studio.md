@@ -1,7 +1,25 @@
 # App Builder
 
-* 프로젝트 창을 여시면 plate tabbar, action bar, canvas area, panel tabbar, left plate로 구성됩니다.
+* 프로젝트 창을 여시면 plate tabbar, action bar, canvas area, left plate, debug창으로 구성됩니다.
 
-<img src='../assets/menu1.png' />
 
-[시베리아 횡단 열차](../assets/menu1.png)
+![](../assets/menu1.png)
+
+
+### 1. action bar
+프로젝트 경로, Git, Bug Viewer, Run, Device Sync, 설정, Profile의 정보를 제공합니다.
+
+
+### 2. left plate
+Widgets, Pages 화면, Widgets tree, Components, Images, Assets Explorer, My Widgets, Data Provider, state transition 등등의 정보를 제공합니다.
+
+
+### 3. plate tabbar
+properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action 등록 등등의 정보를 제공합니다.
+
+
+### 4. log 정보
+프로그램 개발 시 여러 객체들의 로그등의 정보를 제공합니다.
+
+### 5. canvas area
+plate tabbar, 화면UI, script 편집창 등등의 정보를 제공합니다.
