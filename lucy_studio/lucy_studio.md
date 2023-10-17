@@ -18,8 +18,8 @@ Widgets, Pages 화면, Widgets tree, Components, Images, Assets Explorer, My Wid
 properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action 등등의 정보를 제공합니다.
 
 
-### 4. log 정보
-프로그램 개발 시 여러 객체들의 로그등의 정보를 제공합니다.
+### 4. packet 정보
+프로그램 개발을 용이하기 위해서 로그 등의 정보를 이용해서 개발을 쉽게 개발이 가능합니다.
 
 ### 5. canvas area
 plate tabbar, 화면UI, script 편집창 등등의 정보를 제공합니다.
