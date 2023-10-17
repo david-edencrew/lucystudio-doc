@@ -1,4 +1,4 @@
-# App Builder
+# Lucy Studio Builder
 
 * 프로젝트 창을 여시면 plate tabbar, action bar, canvas area, panel tabbar, debug창으로 구성됩니다.
 
