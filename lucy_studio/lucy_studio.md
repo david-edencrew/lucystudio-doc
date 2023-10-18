@@ -15,7 +15,7 @@ Widgets, Pages 화면, Widgets tree, Components, Images, Assets Explorer, My Wid
 
 
 ### 3. panel tabbar 
-properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action 등등의 정보를 제공합니다.
+properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action 기능을 제공합니다.
 
 
 ### 4. packet 정보
