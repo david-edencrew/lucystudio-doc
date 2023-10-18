@@ -19,7 +19,7 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 
 
 ### 4. debug 정보
-프로그램 개발을 용이하게 하기 위해서 에러가 발생 시 변수의 값 등의 체크가 가능합니다.
+프로그램 개발을 용이하게 하기 위해서 에러가 발생 시 간단하게 변수의 값 등의 log정보 체크가 가능합니다.
 
 ### 5. canvas area햣
 plate tabbar, 화면UI, script 편집창 등등의 정보를 제공합니다.
