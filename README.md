@@ -3,26 +3,6 @@
 lucystudio-doc
 ├─ .DS_Store
 ├─ README.md
-├─ assets
-│  ├─ .DS_Store
-│  ├─ Widgets_Contents.png
-│  ├─ Widgets_Divider.png
-│  ├─ Widgets_layout.png
-│  ├─ dpi
-│  │  ├─ E1122.json
-│  │  ├─ E4100.json
-│  │  ├─ E4114.json
-│  │  ├─ IVMNEWREQ01.json
-│  │  ├─ IVMNEWREQ02.json
-│  │  ├─ IVMSTKMST01.json
-│  │  ├─ IVOJEMREQ05.json
-│  │  ├─ h1.json
-│  │  └─ s1.json
-│  ├─ menu1.png
-│  ├─ rowImg.png
-│  ├─ screentest.png
-│  ├─ share_file.zip
-│  └─ stock1.png
 ├─ intro.md
 ├─ lucy_studio
 │  ├─ .DS_Store
