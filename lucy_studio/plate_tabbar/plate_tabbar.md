@@ -1,3 +1,7 @@
-# place tabbar capture 후에 버튼 기능 설명
+# place tabbar
 
-## Lc
+![](../../assets/plate_tabbar/plate_tabbar.png)
+
+
+### 1. main menu
+ 
