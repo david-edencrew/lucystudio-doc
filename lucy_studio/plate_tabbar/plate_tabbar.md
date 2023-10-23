@@ -5,7 +5,9 @@ Widgets, Pages 화면, Widgets tree, Components, Images, Assets Explorer, My Wid
 
 
 ![](../../assets/plate_tabbar/plate_tabbar.png)
-
+<br />
+<br />
+<br />
 
 ### 1. main menu
 
@@ -13,10 +15,23 @@ Widgets, Pages 화면, Widgets tree, Components, Images, Assets Explorer, My Wid
 
 ![](../../assets/plate_tabbar/main_menu.png)
 
-
-
+<br />
+<br />
+<br />
 ### 2. Widgets
 
-위젯도구모음입니다.
+Canvas Area에 위젯들의 배치가 가능하게 해 주는 도구모음입니다.
 
 ![](../../assets/plate_tabbar/widgets.png)
+
+<br />
+<br />
+<br />
+
+### 3. Widget Tree
+
+화면을 구성하는 widget들의 소스를 Tree 구조로 볼 수 있는 
+
+![](../../assets/plate_tabbar/widget_tree.png)
+
+
