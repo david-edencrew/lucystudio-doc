@@ -17,17 +17,10 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 
 ![](../../assets/panel_tabbar/property.png)
 
+[![Everything Is AWESOME](https://i.stack.imgur.com/q3ceS.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
 <br />
 <br />
 <br />
-![](../../assets/video/aaa.mov)
-
-
-
-<video width="320" height="240" controls>
-  <source src="../../assets/video/aaa.mov" type="video/mp4">
-</video>
-
 
 * Data Binding
     1. Provider를 통해서 연동 된 데이터셋을 Provider Instance로 생성합니다.
