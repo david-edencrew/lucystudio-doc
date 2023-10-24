@@ -37,10 +37,17 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 
 ### 2. Styles
 <br />
- 선텍된 위젯의 Property를 통해서 설정된 위젯의 여러 옵션 설정뿐만 아니라 wrap으로 
-
  
+선텍하신 위젯의 확장기능으로 SizedBox(크기변경), Padding(여백조절)등등 여러가지 옵션으로 멀티로 추가가 가능하며 
+원하시는 디자인에 최적화가 가능합니다. 
 
 <br />
 
 ![](../../assets/panel_tabbar/styles.png)
+
+<br />
+<br />
+<br />
+
+####        1. 검색
+
