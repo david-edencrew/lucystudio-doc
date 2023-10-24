@@ -20,6 +20,14 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 <br />
 <br />
 <br />
+![](../../assets/video/aaa.mov)
+
+
+
+<video width="320" height="240" controls>
+  <source src="../../assets/video/aaa.mov" type="video/mp4">
+</video>
+
 
 * Data Binding
     1. Provider를 통해서 연동 된 데이터셋을 Provider Instance로 생성합니다.
@@ -38,7 +46,7 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 
 ### 2. Styles
 <br />
- Property를 통해서 설정된 위젯의 여러 옵션 설정뿐만 아니라 wrap   
+ 선텍된 위젯의 Property를 통해서 설정된 위젯의 여러 옵션 설정뿐만 아니라 wrap으로 감싸서    
 
 <br />
 
