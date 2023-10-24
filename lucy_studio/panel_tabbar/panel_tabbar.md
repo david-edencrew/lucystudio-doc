@@ -17,7 +17,7 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 
 ![](../../assets/panel_tabbar/property.png)
 
-[![Everything Is AWESOME](https://i.stack.imgur.com/q3ceS.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
+
 <br />
 <br />
 <br />
@@ -35,11 +35,11 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 <br />
 <br />
 
-
-
 ### 2. Styles
 <br />
- 선텍된 위젯의 Property를 통해서 설정된 위젯의 여러 옵션 설정뿐만 아니라 wrap으로 감싸서    
+ 선텍된 위젯의 Property를 통해서 설정된 위젯의 여러 옵션 설정뿐만 아니라 wrap으로 
+
+ 
 
 <br />
 
