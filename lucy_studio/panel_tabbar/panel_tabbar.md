@@ -38,8 +38,8 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 
 ### 2. Styles
 <br />
- - 선택된 위젯의 다양한 옵션 외에  
+ Property를 통해서 설정된 위젯의 여러 옵션 설정뿐만 아니라 wrap   
 
 <br />
 
-![](../../assets/panel_tabbar/property.png)
+![](../../assets/panel_tabbar/styles.png)
