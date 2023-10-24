@@ -8,6 +8,12 @@ lucystudio-doc
 │  ├─ Widgets_Contents.png
 │  ├─ Widgets_Divider.png
 │  ├─ Widgets_layout.png
+│  ├─ canvas
+│  │  ├─ .DS_Store
+│  │  ├─ canvas.png
+│  │  ├─ device_size.png
+│  │  ├─ theme.png
+│  │  └─ widget_layer.png
 │  ├─ dpi
 │  │  ├─ E1122.json
 │  │  ├─ E4100.json
@@ -18,7 +24,25 @@ lucystudio-doc
 │  │  ├─ IVOJEMREQ05.json
 │  │  ├─ h1.json
 │  │  └─ s1.json
+│  ├─ log_bar
+│  │  ├─ .DS_Store
+│  │  └─ log_bar.png
 │  ├─ menu1.png
+│  ├─ panel_tabbar
+│  │  ├─ .DS_Store
+│  │  ├─ databinding.png
+│  │  ├─ panel_tabbar.png
+│  │  ├─ property.png
+│  │  └─ styles.png
+│  ├─ plate_tabbar
+│  │  ├─ .DS_Store
+│  │  ├─ action_bar.png
+│  │  ├─ canvas_area.png
+│  │  ├─ main_menu.png
+│  │  ├─ plate_tabbar.png
+│  │  ├─ st.png
+│  │  ├─ widget_tree.png
+│  │  └─ widgets.png
 │  ├─ rowImg.png
 │  ├─ screentest.png
 │  ├─ share_file.zip
@@ -30,6 +54,8 @@ lucystudio-doc
 │  │  └─ action_bar.md
 │  ├─ canvas
 │  │  └─ canvas.md
+│  ├─ log_bar
+│  │  └─ log_bar.md
 │  ├─ lucy_studio.md
 │  ├─ panel_tabbar
 │  │  ├─ .DS_Store
@@ -38,6 +64,7 @@ lucystudio-doc
 │  │     ├─ align.md
 │  │     └─ styles.md
 │  └─ plate_tabbar
+│     ├─ .DS_Store
 │     ├─ plate_tabbar.md
 │     └─ widgets
 │        ├─ contents
