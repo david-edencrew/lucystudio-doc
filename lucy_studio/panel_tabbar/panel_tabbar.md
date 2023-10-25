@@ -63,6 +63,7 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. + (플러스)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 선택하신 위젯의 아래,위에 추가합니다.(동일 위젯으로 중복 사용 가능합니다.)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 선택하신 위젯의 위,아래에 Style 위젯 추가가 가능합니다.(동일 위젯으로 중복 사용 가능합니다.)
 
 
+[![미리보기](https://img.youtube.com/vi/J3kUYFFdVc0/0.jpg)](https://www.youtube.com/watch?v=J3kUYFFdVc0)
