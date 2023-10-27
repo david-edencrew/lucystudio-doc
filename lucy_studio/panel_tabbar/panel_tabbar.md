@@ -66,6 +66,10 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 선택하신 위젯의 위,아래에 Style 위젯 추가가 가능합니다.(동일 위젯으로 중복 사용 가능합니다.)
 
 
+<br />
+<br />
+<br />
+
 ### 3. Data Source
 <br />
 
@@ -114,10 +118,12 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 > 11. Data Source를 추가하실 경우 <첨부2>와 같이 표시됩니다.
 > 12. <4번>과 같이 동일한 방법으로 아웃풋 필드정보 설정이 가능합니다. 
 > 13. Provider Instance로 설정한 데이터셋 목록 중에서 E1413를 더블 클릭 시에 E1413(Provider)에 설정한 원본 데이터셋이 복사됩니다.(<첨부5>의 <14번> 참조)
-> <br />
->
+
+<br />
 
 
 
 
 
+
+ 
