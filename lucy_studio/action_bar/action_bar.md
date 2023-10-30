@@ -4,7 +4,7 @@ action bar는 Lucy Studio 상단에 있습니다.
 프로젝트 경로, Stage Transition, Git, Bug Viewer, Run, Device Sync, 설정, Profile의 정보를 제공합니다.
 
 
-![](../../assets/plate_tabbar/action_bar.png)
+![](../../assets/action_bar/action_bar.png)
 
 
 <br />
