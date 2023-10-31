@@ -148,7 +148,7 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 <br />
 <br />
 
-### 4. Provider Instance Regist
+### 5. Provider Instance Regist
  
 <br />
 
@@ -216,6 +216,8 @@ Provider Instance는 Data Provider와 Data Source를 연결해 주신 브릿지 
 >    * actionResult : 추후 설명
 >    * formula : 추후 설명
 >
+> &nbsp;
+> 
 > 10. assignVal
 >
 >     bindingValType에 따라서 설정가능한 값을 입력합니다.
@@ -230,12 +232,19 @@ Provider Instance는 Data Provider와 Data Source를 연결해 주신 브릿지 
 <br />
 <br />
 
-### 4. Action
+### 6. Action
  
 <br />
 
 추후 설명
 
+<br />
+<br />
 
+### 7. show / hide
+ 
+<br />
+
+panel tabbar 옵션창들을 펼치거나 최소화합니다.
 
  
