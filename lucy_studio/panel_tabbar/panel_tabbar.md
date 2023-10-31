@@ -137,9 +137,104 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 >
 > &nbsp;
 
+<br />
+<br />
 
+### 4. Variable
+<br />
 
+추후 설명
 
+<br />
+<br />
+
+### 4. Provider Instance Regist
+ 
+<br />
+
+plate tabbar > Data Provider에서 연결된 데이터 목록을 인스턴스를 등록가능하게 합니다.
+
+Provider Instance는 Data Provider와 Data Source를 연결해 주신 브릿지 역할을 담당합니다.
+
+<br/>
+
+<참고1>
+
+![](../../assets/panel_tabbar/prov1.png)
+
+<br />
+<br />
+
+> &nbsp;
+> 
+> ProvInstance Register는  <참고1>의 스텝으로 진행이 가능합니다.
+>
+>  * <3번> Data Provider에 연동된 데이터 목록을 표시합니다.
+>
+> &nbsp;
+
+<br />
+<br />
+
+<참고2>
+
+![](../../assets/panel_tabbar/prov2.png)
+
+<br />
+<br />
+
+<참고3>
+
+![](../../assets/panel_tabbar/prov3.png)
+
+<br />
+<br />
+
+> &nbsp;
+>  
+> Detail ProvInstance 설정 변경 
+>
+> 
+> 6.  수정
+> 
+>      Data Provider Instance 모달창이 표시됩니다.
+>
+> 7. 삭제
+>
+>     ProvInstance Register에 등록된 항목이 삭제됩니다.
+>
+> 8. 편집모드
+>
+>     <참고 3> 편집모드로 표시됩니다.  
+>
+> 9. bindingValType
+> 
+>    * constant : 고정값이 있으면 설정가능합니다.
+>    * dataPath : Data Source의 IO의 필드값을 AssignVal를 통해 통신이 가능하게 설정이 가능합니다.
+>    * variable : 추후 설명
+>    * propPath : 추후 설명
+>    * actionResult : 추후 설명
+>    * formula : 추후 설명
+>
+> 10. assignVal
+>
+>     bindingValType에 따라서 설정가능한 값을 입력합니다.
+>
+> 11. 변경 내용 저장
+>
+>     bindingValType, assignVal의 설정값이 변경되면 변경사항을 저장합니다.
+> 
+> &nbsp;
+>
+
+<br />
+<br />
+
+### 4. Action
+ 
+<br />
+
+추후 설명
 
 
 
