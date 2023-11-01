@@ -297,17 +297,16 @@ Provider Instance는 Data Provider와 Data Source를 연결해 주신 브릿지 
 >
 >    &nbsp;
 >
-> 6. Select Action Type
-> 
->     trigger 선택 시
->
->       1. empty
-> 
->           추후 설명
-> 
->      2. delay
+> 6. Select Action Type(trigger 선택 시)
 >     
->           지연시간 설정이 가능합니다.
+>
+>     1. empty
+> 
+>        추후 설명
+> 
+>     2. delay
+>     
+>         지연시간 설정이 가능합니다.
 >
 >      3. openPage
 >       
@@ -366,18 +365,15 @@ Provider Instance는 Data Provider와 Data Source를 연결해 주신 브릿지 
 >           추후 설명  
 > 
 > 
-> 7. Select Action Type
+> 7. Select Action Type(condition 선택 시)
 > 
->       condition 선택 시
->
->           추후 설명
+>      추후 설명
 >
 > 
-> 8. Select Action Type
+> 8. Select Action Type(periodic 선택 시)
 > 
->       periodic 선택 시
 > 
->           추후 설명
+>     추후 설명
 >
 >  &nbsp;   
 
