@@ -300,21 +300,21 @@ Provider Instance는 Data Provider와 Data Source를 연결해 주신 브릿지 
 > 6. Select Action Type(trigger 선택 시)
 >     
 >
->     1. empty
+>   1. empty
 > 
 >        추후 설명
 > 
->     2. delay
+>   2. delay
 >     
->         지연시간 설정이 가능합니다.
+>       지연시간 설정이 가능합니다.
 >
->      3. openPage
+>   3. openPage
 >       
->           이동할 페이지의 경로설정 및 애니메이션 기능을 제공합니다. 
+>        이동할 페이지의 경로설정 및 애니메이션 기능을 제공합니다. 
 >        
->      4. openBackPage
+>   4. openBackPage
 >
->           뒤로가기 기능을 제공합니다.
+>        뒤로가기 기능을 제공합니다.
 >
 >      5. openSheet
 >
