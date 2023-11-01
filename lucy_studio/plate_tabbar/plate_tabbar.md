@@ -7,7 +7,7 @@ Widgets, Pages 화면, Widgets tree, Components, Images, Assets Explorer, My Wid
 <br />
 
 
-![](../../assets/plate_tabbar/plate_tabbar.png)
+![](../../assets/plate_tabbar/plate_tabbar1.png)
 <br />
 <br />
 <br />
