@@ -22,10 +22,17 @@ properties, Styles, Data Source, Provider Instance, CDS, Data Binding, Action �
 <br />
 <br />
 
-* Data Binding
-    1. Provider를 통해서 연동 된 데이터셋을 Provider Instance로 생성합니다.
-    2. 생성 된 Provider Instance를 Data Source와 연동합니다.
-    3. 연동 된 Data Source와 위젯의 고유 ID를 통해서 위젯의 값 또는 옵션 등의 연결을 지원합니다.  
+> &nbsp;
+> 
+> Data Binding
+> 
+>    1. Provider를 통해서 연동 된 데이터셋을 Provider Instance로 생성합니다.
+> 
+>    2. 생성 된 Provider Instance를 Data Source와 연동합니다.
+> 
+>    3. 연동 된 Data Source와 위젯의 고유 ID를 통해서 위젯의 값 또는 옵션 등의 연결을 지원합니다.  
+>
+> &nbsp;
 
 <br />
 
