@@ -300,69 +300,69 @@ Provider Instance는 Data Provider와 Data Source를 연결해 주신 브릿지 
 > 6. Select Action Type(trigger 선택 시)
 >     
 >
->   1. empty
+>    1. empty
 > 
->        추후 설명
+>         추후 설명
 > 
->   2. delay
+>    2. delay
 >     
->       지연시간 설정이 가능합니다.
+>         지연시간 설정이 가능합니다.
 >
->   3. openPage
+>    3. openPage
 >       
 >        이동할 페이지의 경로설정 및 애니메이션 기능을 제공합니다. 
 >        
->   4. openBackPage
+>    4. openBackPage
 >
 >        뒤로가기 기능을 제공합니다.
 >
->      5. openSheet
+>    5. openSheet
 >
->           아래에서 위로 올라오는 BottomSheet 페이지를 보여주는 기능입니다.
+>        아래에서 위로 올라오는 BottomSheet 페이지를 보여주는 기능입니다.
 >
->      6. openDrawer
+>    6. openDrawer
 >
->           추후 설명
+>        추후 설명
 >
->      7. navigatorPop
+>    7. navigatorPop
 >
->           현재 창을 닫습니다.
+>        현재 창을 닫습니다.
 >
->      8. oppenDialog
+>    8. oppenDialog
 >
->           추후 설명
+>        추후 설명
 >
->      9. toastShow
+>    9. toastShow
 >
->           토스트 메세지를 보여줍니다.      
+>        토스트 메세지를 보여줍니다.      
 >
->      10. updateVar
+>    10. updateVar
 >
->           추후 설명
+>        추후 설명
 >
->      11. clearVar
+>    11. clearVar
 > 
->           추후 설명
+>        추후 설명
 >
->      12. exeEventResponse
+>    12. exeEventResponse
 >
->           추후 설명
+>        추후 설명
 >
->      13. requestData
+>    13. requestData
 >
->           Provider Instance Name을 지정해 주면 해당 Data Provider로 정보를 전송합니다.
+>        Provider Instance Name을 지정해 주면 해당 Data Provider로 정보를 전송합니다.
 >
->      14. subscribeData
+>    14. subscribeData
 > 
->           Provider Instance 선택시 해당 Data Provider로 실시간 데이터 연결해 줍니다.  
+>        Provider Instance 선택시 해당 Data Provider로 실시간 데이터 연결해 줍니다.  
 >
->      15. unsubscribeData
+>    15. unsubscribeData
 >
->           Provider Instance 선택시 해당 Data Provider로 실시간 데이터 연결을 해제합니다. 
+>        Provider Instance 선택시 해당 Data Provider로 실시간 데이터 연결을 해제합니다. 
 >
->      16. loadFile
+>    16. loadFile
 >
->           추후 설명  
+>        추후 설명  
 > 
 > 
 > 7. Select Action Type(condition 선택 시)
