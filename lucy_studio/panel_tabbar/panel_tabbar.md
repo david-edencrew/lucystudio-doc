@@ -209,12 +209,12 @@ Provider Instance는 Data Provider와 Data Source를 연결해 주신 브릿지 
 >
 > 9. bindingValType
 > 
->    * constant : 고정값이 있으면 설정가능합니다.
->    * dataPath : Data Source의 IO의 필드값을 AssignVal를 통해 통신이 가능하게 설정이 가능합니다.
->    * variable : 추후 설명
->    * propPath : 추후 설명
->    * actionResult : 추후 설명
->    * formula : 추후 설명
+>    1. constant : 디폴트 값이 있으면 설정가능합니다.
+>    2. dataPath : Data Source의 IO의 필드값을 AssignVal를 통해 통신이 가능하게 설정이 가능합니다.
+>    3. variable : 추후 설명
+>    4. propPath : 추후 설명
+>    5. actionResult : 추후 설명
+>    6. formula : 추후 설명
 >
 > &nbsp;
 > 
@@ -227,7 +227,6 @@ Provider Instance는 Data Provider와 Data Source를 연결해 주신 브릿지 
 >     bindingValType, assignVal의 설정값이 변경되면 변경사항을 저장합니다.
 > 
 > &nbsp;
->
 
 <br />
 <br />
@@ -236,15 +235,152 @@ Provider Instance는 Data Provider와 Data Source를 연결해 주신 브릿지 
  
 <br />
 
-추후 설명
+화면의 이동, 원격 데이터와의 통신, 변수설정, toast message등등 여러가지 기능을 제공합니다.
+
+<br />
+
+![](../../assets/panel_tabbar/action1.png)
+
+<br />
+
+![](../../assets/panel_tabbar/action2.png)
+
+<br />
+
+![](../../assets/panel_tabbar/action3.png)
+
+<br />
+
+![](../../assets/panel_tabbar/action4.png)
+
+<br />
+
+![](../../assets/panel_tabbar/action5.png)
+
+<br />
+
+> &nbsp;
+>  
+> 1. create action
+>
+>    클릭하시면 추가할 action 팝업창이 생성됩니다.
+>
+> 2. Action Name
+>
+>    필수입력 사항으로 Action Name을 지정하셔야 됩니다.
+>
+> 3. Select Action Type
+> 
+>    클릭 시  <5번> 팝업창이 나오며 trigger, condition, periodic의 타입선택이 가능합니다.
+>    
+>    Select Action Type
+>  
+>        1. trigger : 면이동, 화면닫기, 팝업창, 변수 설정 등등 다양한 기능을 제공합니다.
+> 
+>        2. condition : 분기 조건설정 기능을 제공합니다.
+> 
+>        3. periodic : 추후 설명
+> 
+>
+> 4. Save
+>    
+>    action name,type을 설정하고 저장하면 action이 추가됩니다.
+> 
+> 5. Action 추가 팝업
+>
+>    &nbsp;
+>
+> 6. Select Action Type
+> 
+>     trigger 선택 시
+>
+>       1. empty
+> 
+>           추후 설명
+> 
+>      2. delay
+>     
+>           지연시간 설정이 가능합니다.
+>
+>      3. openPage
+>       
+>           이동할 페이지의 경로설정 및 애니메이션 기능을 제공합니다. 
+>        
+>      4. openBackPage
+>
+>           뒤로가기 기능을 제공합니다.
+>
+>      5. openSheet
+>
+>           아래에서 위로 올라오는 BottomSheet 페이지를 보여주는 기능입니다.
+>
+>      6. openDrawer
+>
+>           추후 설명
+>
+>      7. navigatorPop
+>
+>           현재 창을 닫습니다.
+>
+>      8. oppenDialog
+>
+>           추후 설명
+>
+>      9. toastShow
+>
+>           토스트 메세지를 보여줍니다.      
+>
+>      10. updateVar
+>
+>           추후 설명
+>
+>      11. clearVar
+> 
+>           추후 설명
+>
+>      12. exeEventResponse
+>
+>           추후 설명
+>
+>      13. requestData
+>
+>           Provider Instance Name을 지정해 주면 해당 Data Provider로 정보를 전송합니다.
+>
+>      14. subscribeData
+> 
+>           Provider Instance 선택시 해당 Data Provider로 실시간 데이터 연결해 줍니다.  
+>
+>      15. unsubscribeData
+>
+>           Provider Instance 선택시 해당 Data Provider로 실시간 데이터 연결을 해제합니다. 
+>
+>      16. loadFile
+>
+>           추후 설명  
+> 
+> 
+> 7. Select Action Type
+> 
+>       condition 선택 시
+>
+>           추후 설명
+>
+> 
+> 8. Select Action Type
+> 
+>       periodic 선택 시
+> 
+>           추후 설명
+>
+>  &nbsp;   
 
 <br />
 <br />
 
-### 7. show / hide
+### 7. 접기/ 펼치기
  
 <br />
 
-panel tabbar 옵션창들을 펼치거나 최소화합니다.
+panel tabbar 옵션창들을 접거나 펼칠 수 있습니다.
 
  
