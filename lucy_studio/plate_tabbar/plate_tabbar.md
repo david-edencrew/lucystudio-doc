@@ -82,5 +82,28 @@ git 원격저장소 저장되어 있는 이미지 목록을 표시합니다.
 ![](../../assets/plate_tabbar/asset_explorer.png)
 
 
+<br />
+<br />
+<br />
+
+### 8. My Widgets
+
+추후 설명
+
+![](../../assets/plate_tabbar/my_widgets.png)
+
+<br />
+<br />
+<br />
+
+ 
+### 8. Data Provider
+
+구체적인 설정방법은 추후 설명합니다.
+
+![](../../assets/plate_tabbar/my_widgets.png)
+
+
+
 
 
