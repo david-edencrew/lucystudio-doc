@@ -97,12 +97,50 @@ git 원격저장소 저장되어 있는 이미지 목록을 표시합니다.
 <br />
 
  
-### 8. Data Provider
+### 9. Data Provider
 
 구체적인 설정방법은 추후 설명합니다.
 
 ![](../../assets/plate_tabbar/my_widgets.png)
 
+
+<br />
+<br />
+<br />
+
+ 
+### 10. Theme 설정
+
+default로 "Dark", "Light"기본 테마그룹이 존재하며 필요시 태마 추가,삭제가 가능합니다.
+
+
+![](../../assets/plate_tabbar/theme.png)
+
+
+> &nbsp;
+>
+>  1. Color 
+> 
+>     테마 그룹을 보여줍니다.
+> 
+>  2. Gradient
+> 
+>     추후 설명
+>
+>  3. Search for color id or Hex
+>
+>     테마그룹의 제목 또는 Hex값으로 검색 가능합니다.
+>
+>  4. Add Color
+>
+>     <12번> 색상 추가 팝업이 나오며 이름과 Tag를 선택 후에 색상 추가시 테마그룹에 색상이 추가됩니다. 
+> 
+> 
+> &nbsp;
+> 
+<br />
+<br />
+<br />
 
 
 
