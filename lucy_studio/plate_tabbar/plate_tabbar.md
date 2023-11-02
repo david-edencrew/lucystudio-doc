@@ -264,16 +264,6 @@ default로 "Dark", "Light"기본 테마그룹이 존재하며 필요시 태마 �
 <br />
 <br />
 <br />
- 
-### 11. App Setting
-
-추후 설명
-
-![](../../assets/plate_tabbar/app_setting.png)
-
-<br />
-<br />
-<br />
 
 ### 12. 
  
