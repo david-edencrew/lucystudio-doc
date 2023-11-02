@@ -99,12 +99,72 @@ git 원격저장소 저장되어 있는 이미지 목록을 표시합니다.
  
 ### 9. Data Provider
 
-구체적인 설정방법은 추후 설명합니다.
+구체적인 설정방법은 추후 설명이 필요합니다.
 
-![](../../assets/plate_tabbar/my_widgets.png)
+![](../../assets/plate_tabbar/provider1.png)
 
 
 <br />
+<br />
+
+![](../../assets/plate_tabbar/provider2.png)
+
+
+
+>&nbsp;
+>  
+> Call Definition(input값 설정)
+> 
+>   1. Group 추가
+>
+>   2. Field 추가
+>
+> Response Definition(output 설정)
+> 
+>   3. Group 추가
+>
+>   4. Field 추가
+>
+>   
+> 
+> &nbsp;
+
+
+<br />
+<br />
+
+![](../../assets/plate_tabbar/provider3.png)
+
+
+<br />
+<br />
+
+>&nbsp;
+> 
+> 
+> 1. Provider Type 선택
+>
+> 2. 데이터 타입 체크
+>
+> 
+> 3. Select Channel 선택
+>
+>
+> 4. Header Type 선택
+>
+>
+> 5. Select Channel 선택
+>   
+>
+>
+> 6. Format Type 선택
+>   
+>
+>   
+> 
+> &nbsp;
+
+
 <br />
 <br />
 
