@@ -5,7 +5,7 @@
 과정은  다음과 같다.
 
 
-![](<../../assets/simple_app/dataprovider01.png>)
+![](<../assets/simple_app/dataprovider01.png>)
 
 1. Data Provider Panel 에서 새로운 세션을 만든다.
 2. 신규 세션을 생성한다. 
@@ -22,7 +22,7 @@
 ## 샘플 생성 및 등록
 - 샘플은 파일을 읽어 화면에 데이터를 보여주는 작업을 보여준다. 먼저 내부설정부터 아래와 같이 작업한다.
   
-![](<../../assets/plate_tabbar/dataprovider02.png>)
+![](<../assets/simple_app/dataprovider02.png>)
 
 <br/>
 
@@ -33,7 +33,7 @@
 
 <br/><br/><br/>
 
-![](<../../assets/plate_tabbar/dataprovider03.png>)
+![](<../assets/simple_app/dataprovider03.png>)
 <br/>
 
 1. Response Definition 영역에서 (읽어서 가져올 데이터 영역)
@@ -45,7 +45,7 @@
 
 <br/><br/><br/>
 
-![](<../../assets/plate_tabbar/dataprovider04.png>)
+![](<../assets/simple_app/dataprovider04.png>)
 <br/>
 
 5. 추가이후  “outBlock0”의 앞 화살표를 선택시에 위와같이 접히는 구조가 되어야 정상이다.
@@ -56,7 +56,14 @@
 
 <br />
 <br />
-샘플데이터 : jongmok.json 의 구조 및 데이터 (아래 텍스트를 복사한다)
+
+샘플데이터 : `jongmok.json` 의 구조 및 데이터 
+<br/>
+
+1. 아래 텍스트를 복사한다.
+2. 파일명을 `jongmok.json` 으로 만든다.
+3. jongmok.json 저장경로를 LUCY 설치 폴터의 .... 에 저장한다.
+
 <br />
 <br />
 
