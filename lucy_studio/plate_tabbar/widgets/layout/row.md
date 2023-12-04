@@ -79,13 +79,16 @@ child 위젯의 쌓는 기준을 설정합니다.
 2. ideographic
    
 
-### @ clipBehavior
+### @ chipBehavior
+공간을 확보하는 위젯의 하위 자식위젯의 이미지등을 오려내서 표현하는 방법이다. 이때는 오려내는 방법을 의미한다.
 <br/>
+1. 콘텐츠를 자를 필요 없을 경우 (none)
+2. 원이나 직선이 계단형태로 표시.(hardEdge)
+3. 콘텐츠의 이미지 등의 계단현상을 방지하는 형태(antiAlias)
+4. 콘텐츠의 이미지 등의 계단현상을 방지하는 형태, 게다가 느리다.(antiAliasWithSaveLayer)
 
-1. none
-2. hardEdge
-3. antiAlias
-4. antiAliasWithSaveLayer
+
+[Clip 참조] https://api.flutter.dev/flutter/dart-ui/Clip.html
 
 
 

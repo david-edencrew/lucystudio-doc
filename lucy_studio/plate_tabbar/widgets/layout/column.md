@@ -39,12 +39,12 @@ Row 위젯과의 차이는 다음과 같습니다.
 child 위젯을 배치하는 간격을 설정합니다.
 <br/>
 
-1. 윗쪽으로 모든 하위항목을 배치합니다.
-2. 아래쪽으로 모든 하위항목을 배치합니다.
-3. 가운데로 모든 하위항목을 배치합니다.
+1. 시작점에서 부터 모든 하위항목을 배치합니다.(start)
+2. 종료지점에서 부터 모든 하위항목을 배치합니다.(end)
+3. 가운데로 모든 하위항목을 배치합니다.(center)
 4. 처음부터 마지막까지 위젯의 위치를 균등하게 배치합니다. (spaceBetween)
-5. child 위젯간의 공간을 두고, 절반 크기만큼 양 옆에 공간을 둔다. (spaceAround)
-6. 위젯간의 공간을 두고, 같은 크기만큼 양옆의 공간을 둔다.(spaceEvenly)
+5. child 위젯간의 공간을 두고, 절반 크기만큼 양 옆에 공간을 배치합니다. (spaceAround)
+6. 위젯간의 공간을 두고, 같은 크기만큼 양옆의 공간을 배치합니다.(spaceEvenly)
 
 ### @ crossAxisAlignment
 child 위젯의 시작지점을 설정합니다.
@@ -79,13 +79,16 @@ child 위젯의 쌓는 기준을 설정합니다.
 2. ideographic
    
 
-### @ clipBehavior
+### @ chipBehavior
+공간을 확보하는 위젯의 하위 자식위젯의 이미지등을 오려내서 표현하는 방법이다. 이때는 오려내는 방법을 의미한다.
 <br/>
+1. 콘텐츠를 자를 필요 없을 경우 (none)
+2. 원이나 직선이 계단형태로 표시.(hardEdge)
+3. 콘텐츠의 이미지 등의 계단현상을 방지하는 형태(antiAlias)
+4. 콘텐츠의 이미지 등의 계단현상을 방지하는 형태, 게다가 느리다.(antiAliasWithSaveLayer)
 
-1. none
-2. hardEdge
-3. antiAlias
-4. antiAliasWithSaveLayer
+
+[Clip 참조] https://api.flutter.dev/flutter/dart-ui/Clip.html
 
 ### @ scrollAnchor
 해당 컬럼내에 스크롤앵커를 사용하기위해 설정합니다.(추가 첨부) 
