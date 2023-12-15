@@ -72,7 +72,8 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   아래의 예시는 같은 경로내에 있는 intro 라는 Page(File단위) 를 여는 설정으로 여는 파일명은 <br/>
   직접입력하며 (constant), 파일명은 (intro) 입니다.
   <br/><br/> 
-  <img src="../../assets/action_bar/action06.png"  width="28%"  height="28%"/>
+  <img src="../../assets/action_bar/action06.png"  width="28%"  height="28%"/><br/>
+    [openPage  참조](/../manual/simple_app/openPage.md)
   <br/><br/>
 
 - openBackPage <br/>
@@ -116,8 +117,7 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   <br/>
    OpenPage 는 기존의 화면을 신규화면으로 교체 합니다.
   <br/><br/> 
-  <img src="../../assets/action_bar/action05.png"  width="30%"  height="30%"/> <br/>
-    [openPage  참조](/../manual/simple_app/openPage.md)
+  <img src="../../assets/action_bar/action05.png"  width="30%"  height="30%"/> 
   <br/><br/>
 
 - openDialog 
