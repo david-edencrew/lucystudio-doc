@@ -54,22 +54,23 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
 
 <br/><br/>
 
-- empty
+- empty <br/>
  : 빈 액션을 등록하는 것으로 매세지, 혹은 로그를 남기기 위함이나 특정한 행동을 할 필요가 없는 액션을 등록합니다.
   <br/><br/> 
   <img src="../../assets/action_bar/action01.png"  width="30%"  height="30%"/>
   <br/><br/>
 
-- delay
+- delay <br/>
   :연속적인 액션중에 지연을 주기 위한 액션입니다. Delay 설정값은 milisecond 입니다.
   <br/><br/> 
   <img src="../../assets/action_bar/action02.png"  width="30%"  height="30%"/>
   <br/><br/>
 
-- openPage
+- openPage <br/>
   : 새로운 페이지를 엽니다. 새로운 패이지를 여는 방식은 여러가지가 있으며 페이지 제일 아래를 참조바랍니다.
   <br/>
-  아래의 예시는 같은 경로내에 있는 intro 라는 Page(File단위) 를 여는 설정으로 
+  아래의 예시는 같은 경로내에 있는 intro 라는 Page(File단위) 를 여는 설정으로 여는 파일명은 <br/>
+  직접입력하며 (constant), 파일명은 (intro) 입니다.
   <br/><br/> 
   <img src="../../assets/action_bar/action06.png"  width="28%"  height="28%"/>
   <br/><br/>
@@ -81,13 +82,13 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   
   <br/><br/>
 
-- openSheet
+- openSheet <br/>
   : 페이지를 아래에서 위로 새로 열립니다. 여는 방식의 차이입니다. 
   <br/><br/> 
   <img src="../../assets/action_bar/action11.png"  width="28%"  height="28%"/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="../../assets/action_bar/action10.png"  width="30%"  height="30%"/>
-  < 구글페이지의 예시 >
+  < 구글페이지의 openSheet 방식 >
   <br/><br/>
 
 
@@ -96,7 +97,7 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   <br/><br/> 
   <img src="../../assets/action_bar/action04.png"  width="30%"  height="30%"/>
   <br/>
-    "Drawer is left show" 를 통해서 왼쪽, 오른쪽에서 열리는 방향을 정한다. 
+    "Drawer is left show" 를 통해서 왼쪽, 오른쪽에서 열리는 방향을 정합니다. 
   <br/>
   <br/>
   <img src="../../assets/action_bar/action12.png"  width="30%"  height="30%"/>
@@ -115,7 +116,8 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   <br/>
    OpenPage 는 기존의 화면을 신규화면으로 교체 합니다.
   <br/><br/> 
-  <img src="../../assets/action_bar/action05.png"  width="30%"  height="30%"/>
+  <img src="../../assets/action_bar/action05.png"  width="30%"  height="30%"/> <br/>
+    [openPage  참조](/../manual/simple_app/openPage.md)
   <br/><br/>
 
 - openDialog 
@@ -131,6 +133,7 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   <br/><br/> 
   <img src="../../assets/action_bar/action08.png"  width="30%"  height="30%"/>
   <br/>
+  Toast Type
   1. normal
   2. error
   3. warning
