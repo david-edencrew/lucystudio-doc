@@ -73,7 +73,7 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   직접입력하며 (constant), 파일명은 (intro) 입니다.
   <br/><br/> 
   <img src="../../assets/action_bar/action06.png"  width="28%"  height="28%"/><br/>
-    [openPage  참조](/../manual/simple_app/openPage.md)
+    [openPage  참조](/simple_app/openPage.md)
   <br/><br/>
 
 - openBackPage <br/>
