@@ -109,7 +109,7 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <오른쪽에서 열리는 형태>
-
+  <br/>   [openDrawer 참조](/simple_app/openDrawer.md)
   <br/><br/> 
 - navigatorPop
   <br/>
@@ -125,6 +125,7 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   : 화면의 가운데 Dialog 창을 띄웁니다. Full Dialog창의 경우는 화면전체를 띄웁니다.
   <br/><br/> 
   <img src="../../assets/action_bar/action07.png"  width="30%"  height="30%"/>
+  <br/>  [openDialog 참조](/simple_app/openDialog.md)
   <br/><br/>
 
 - toastShow
