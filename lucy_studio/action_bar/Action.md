@@ -4,16 +4,19 @@
 <br/><br/><br/>
 
 ### Action ID 부여하기
-이 ID 를 통해서 외부에서 이벤트를 요청받습니다. 유일한 이름을 설정합니다.
+이 ID 를 통해서 외부에서 이벤트를 요청받습니다. 유일한 이름을 설정합니다. 설정된 이름은 이벤트 요청할때 필요합니다.
 
 <img src="../../assets/action_bar/action00.png"  width="80%"  height="80%"/>
 
 최초에 액션의 그룹이름을 정해 주어야 합니다. 그 그룹의 이름으로 이벤트를 처리하게 하기 위함입니다. 
 <br/>
 Style Property -> GestureDetector 혹은 JAVA 스크립트를 이용해서 해당 액션을 실행하게 됩니다.
-( 관련문서 링크 !! 작성되면 연결 )
+<br/><br/>
 
-<br/>
+<img src="../../assets/action_bar/gestureDetect.gif"  width="100%"  height="100%"/> 
+
+
+<br/><br/><br/>
 <br/>
 
 
@@ -76,6 +79,16 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
     [openPage  참조](/simple_app/openPage.md)
   <br/><br/>
 
+
+<br/><br/>
+페이지는 여러개의 Form으로 구성 되어있습니다. 이때 화면을 열때 Form 도 지정이 가능합니다.   <br/>
+예를 들어 두번째 Form 을 열고 싶으면 파일명을 여는 명칭에 "Manual/firstPage.form2" 라고 입력합니다. <br/>
+
+<img src="../../assets/action_bar/action17.gif"  width="100%"  height="100%"/><br/>
+<br/><br/> 
+  
+
+
 - openBackPage <br/>
   : 열려있는 페이지(p2)를 닫고 이전화면(p1)으로 되돌아 갑니다. 이는 먼저 openPage Action을 한 이후에 가능합니다. 새로운 창에서 작업이 완료된 경우, 닫아야 할때 openBackPage 를 실행합니다. p1에서 openPage를 이용해서 열린 page(p2번) 를 닫고 기존페이지(p1)로 다시 돌아옵니다. 즉 부모 Page가 있어야 합니다.
   <br/><br/> 
@@ -93,11 +106,13 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   <br/><br/>
 
 
-- openDrawer <br/>
-  : 신규페이지를 왼쪽 혹은 오른쪽으로 엽니다. 사이즈는 열리는 페이지의 크기에 영향을 받습니다.
+- openDrawer <br/>[openDrawer 참조](/simple_app/openDrawer.md)
+  <br/>신규페이지를 왼쪽 혹은 오른쪽으로 엽니다. 사이즈는 열리는 페이지의 크기에 영향을 받습니다.
   <br/><br/> 
   <img src="../../assets/action_bar/action04.png"  width="30%"  height="30%"/>
   <br/>
+
+
     "Drawer is left show" 를 통해서 왼쪽, 오른쪽에서 열리는 방향을 정합니다. 
   <br/>
   <br/>
@@ -109,7 +124,8 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <오른쪽에서 열리는 형태>
-  <br/>   [openDrawer 참조](/simple_app/openDrawer.md)
+  
+
   <br/><br/> 
 - navigatorPop
   <br/>
@@ -120,12 +136,12 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   <img src="../../assets/action_bar/action05.png"  width="30%"  height="30%"/> 
   <br/><br/>
 
-- openDialog 
+- openDialog <br/>  [openDialog 참조](/simple_app/openDialog.md)
   <br/>
   : 화면의 가운데 Dialog 창을 띄웁니다. Full Dialog창의 경우는 화면전체를 띄웁니다.
   <br/><br/> 
   <img src="../../assets/action_bar/action07.png"  width="30%"  height="30%"/>
-  <br/>  [openDialog 참조](/simple_app/openDialog.md)
+  
   <br/><br/>
 
 - toastShow
@@ -134,18 +150,22 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   <br/><br/> 
   <img src="../../assets/action_bar/action08.png"  width="30%"  height="30%"/>
   <br/>
-  Toast Type
-  1. normal
-  2. error
-  3. warning
-  4. success
-  5. notify
-   
+  >Toast Type
+  >1. normal
+  >2. error
+  >3. warning
+  >4. success
+  >5. notify
+
+    <img src="../../assets/action_bar/toastMessage1.gif"  width="30%"  height="30%"/> 
+
+
+
   <br/>
 메세지를 올리는 정보는 다음과 같습니다.
-1. constant : 아래 창에 입력한 형태를 그대로 출력합니다.
-2. dataPath : CDS의 필드이름을 입력하고 해당 필드의 들어가있는 정보를 출력합니다.
-3. variable : 저장된 변수에 들어가있는 정보를 출력합니다.
+1. constant : 아래 창에 입력한 문자를 그대로 출력합니다.
+2. dataPath : DataSource 의 필드이름을 입력하고 해당 필드의 들어가있는 정보를 출력합니다.
+3. variable : Lucy Studio에 저장된 변수에 들어가있는 정보를 출력합니다.
 4. propPath :  
 5. actionResult : 콜백으로 받은 Action 의 결과값을 출력합니다.
 6. formula : 
@@ -183,7 +203,25 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
   OpenPage, UpdateVar, ToastMessage 를 연속적으로 조합해서 사용합니다. 
   동시에 실행하는 것이 아닌, 선행되는 액션이 완료되면 실행하므로 액션이 순차적으로 연계해서 사용할수 있습니다.
 
-  아래의 등록된 이벤트들은 그 예시를 보여줍니다. <-- 작성해>
+  아래의 등록된 이벤트들은 그 예시를 보여줍니다.
+
+  1. "Message2" 액션은 토스트 메세지를 보여주는 액션입니다. 
+  <br/><br/> 
+  <img src="../../assets/action_bar/action20.png"  width="80%"  height="80%"/>
+  <br/><br/>
+
+  2. 먼저 openPage 를 하는 액션뒤에 "exeEventResponse" 를 추가합니다.
+   <br/>  이후에 연계가 될 액션을 추가합니다. 이때 "Message2" 액션을 걸어둡니다.
+  <br/><br/> 
+  <br/><br/> 
+  <img src="../../assets/action_bar/action18.png"  width="80%"  height="80%"/>
+  <br/><br/> 
+  <br/><br/> 
+  <img src="../../assets/action_bar/action19.png"  width="80%"  height="80%"/>
+  <br/><br/> 
+  
+  그러면 화면을 띄우는 openPage 이후 즉시 Message2 라는 액션이 실행되게 됩니다. 
+
 
 
 <br/><br/>
@@ -216,7 +254,7 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
 
   등록된 ProvInstance 를 연결하면 과정이 완료됩니다.
 
-  [ListView 위젯에 파일정보를 읽어 등록하는 과정<<--- 연결재대로 해야함](/lucy_studio/plate_tabbar/plate_tabbar.md)
+  [ListView 위젯에 파일정보를 읽어 등록하는 과정](/simple_app/LoadFile.md)
 
 <br/><br/>
 
@@ -226,4 +264,4 @@ Trigger 는 이벤트를 통해서 액션을 실행하고, Condition & periodic 
 18. periodic
 
 
-[참조] https://api.flutter.dev/flutter/dart-ui/Clip.html
+[홈페이지참조할때] https://api.flutter.dev/flutter/dart-ui/Clip.html
